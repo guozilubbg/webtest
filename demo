@@ -1,4 +1,4 @@
-common文件夹存放公有元素
+common公用方法
 
 data存放测试数据
 
@@ -13,3 +13,7 @@ testcase文件夹中存放测试用例
 HTMLTestRunner.py是将测试结果生成为html版的测试报告的文件
 
 run.py 执行run.py文件可以执行全部测试用例
+
+2020729
+handle  操作层
+logs 日志
