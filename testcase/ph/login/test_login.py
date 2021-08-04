@@ -1,7 +1,7 @@
 from selenium import webdriver
 import time
 import unittest
-from page.ph.BasePage import *
+from page.ph.login_page import *
 
 
 class Testlogin(unittest.TestCase):

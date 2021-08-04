@@ -1,15 +1,16 @@
 from selenium import webdriver
 import time
 import unittest
-from page.ph.BasePage import *
+from page.ph.login_page import *
+from data.ph.BaseData import *
 
 
-class TestClickPackage(unittest.TestCase):
+class TestLogIn(unittest.TestCase):
     def setUp(self):
         self.driver = webdriver.Chrome()
-        self.url = BasePage.url
+        self.url = login.url
         self.driver.maximize_window()
-        self.page = BasePage(self.driver)
+        self.page = login(self.driver)
         self.page.get(self.url)
 
 
@@ -19,11 +20,13 @@ class TestClickPackage(unittest.TestCase):
     def test_login(self):
         # 使用pageObject模式时的web页面自动化测试代码
         # 元素=内容
-        self.page.login_username = self.page.lonin_usr
-        self.page.login_password = self.page.login_pas
+        self.page.login_username = BaseData.login_username
+        self.page.login_password = BaseData.login_password
         self.page.login_click.click()
         time.sleep(8)
-        self.page.fam_doc.click()
-        time.sleep(8)
+
+
+
+
 
 

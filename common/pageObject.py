@@ -1,5 +1,9 @@
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.common.by import By
+from selenium import webdriver
+from selenium.webdriver.common.action_chains import ActionChains
+from time import sleep
+
 
 # Map PageElement constructor arguments to webdriver locator enums
 _LOCATOR_MAP = {'css': By.CSS_SELECTOR,
@@ -35,7 +39,7 @@ class PageObject(object):
         self.w.get(root_uri + uri)
 
 
-class PageElement(object):
+class PageElement(object):#element
     """Page Element descriptor.
     :param css:    `str`
         Use this css locator
@@ -99,11 +103,11 @@ class PageElement(object):
         elem = self.__get__(instance, instance.__class__)
         if not elem:
             raise ValueError("Can't set value, element not found")
-        elem.clear()
-        elem.send_keys(value)
+        elem.clear()#清除搜索栏
+        elem.send_keys(value)#输入值
 
 
-class MultiPageElement(PageElement):
+class MultiPageElement(PageElement):#elements
     """ Like `PageElement` but returns multiple results.
         # >>> from page_objects import PageObject, MultiPageElement
         # >>> class MyPage(PageObject):
@@ -125,6 +129,12 @@ class MultiPageElement(PageElement):
         if not elems:
             raise ValueError("Can't set value, no elements found")
         [elem.send_keys(value) for elem in elems]
+
+class ActionChainsElement(object):
+
+    pass
+
+
 
 
 # Backwards compatibility with previous versions that used factory methods
