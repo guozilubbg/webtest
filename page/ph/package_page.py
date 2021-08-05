@@ -1,12 +1,11 @@
 '''
 服务包页面
 '''
-from common.pageObject import PageObject, PageElement
-from selenium.webdriver.support.select import Select
+from common.PageObject import PageObject, PageElement
 from data.url import *
 
 
-class Package(PageObject):
+class Package_Page(PageObject):
     # 当前测试页面的测试网址url，目前操作是基于登录后的操作
     # base_url = Url.public_health_url
     # url = base_url + '/'

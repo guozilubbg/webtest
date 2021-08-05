@@ -1,10 +1,9 @@
 '''
 导航页面
 '''
-from common.pageObject import PageObject, PageElement
-from selenium.webdriver.common.action_chains import ActionChains
+from common.PageObject import PageObject, PageElement
 
-class main(PageObject):
+class Main_Page(PageObject):
     # 点击桌面添加
     fam_add = PageElement(
         xpath='//*[@id="app"]/section/section/main/div/div/div/div[2]/div/div[2]/div/div[2]/div[1]/div[2]/div/button')

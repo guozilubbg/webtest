@@ -1,31 +1,17 @@
 '''
 核心操作流程
 '''
-from page.ph.login_page import *
 from data.ph.BaseData import *
-from page.ph.main_page import *
-from page.ph.package_page import *
+from selenium.webdriver.common.action_chains import ActionChains
+from selenium.webdriver.support.select import Select
+from common.Log import Log
+import time
 
 
 class BaseHandle():
-    # driver = webdriver.Chrome()
-    # url = Login.url
-    # driver.maximize_window()
-    # page = Login(driver)
-    # page.get(url)
-    # main = main(driver)
-    # creat = Package(driver)
-
-    def __init__(self,driver):
-        self.driver = driver
-        self.url = Login.url
-        self.driver.maximize_window()
-        self.page = Login(self.driver)
-        self.page.get(self.url)
-        self.main = main(self.driver)
-        self.creat = Package(self.driver)
     # 登录
-    def login(self):
+    def login(self, page, driver=None):
+        self.page = page
         self.page.login_username = BaseData.login_username
         # 输入密码
         self.page.login_password = BaseData.login_password
@@ -33,8 +19,10 @@ class BaseHandle():
         self.page.login_click.click()
         time.sleep(1)
 
-    #  创建服务包
-    def creat_new_package(self):
+    # 点击服务包
+    def click_fam(self, main, driver=None):
+        self.main = main
+        self.driver = driver
         # 悬浮到家医签约
         ActionChains(self.driver).move_to_element(self.main.fam_fam).perform()
         time.sleep(1)
@@ -44,6 +32,21 @@ class BaseHandle():
         # 悬浮到服务包并点击服务包
         ActionChains(self.driver).move_to_element(self.main.fam_pac_click).click().perform()
         time.sleep(1)
+
+    #  创建服务包
+    def creat_new_package(self, creat, main, driver=None):
+        self.creat = creat
+        Log().info("================================== 悬浮到家医签约 ==================================")
+
+        # # 悬浮到家医签约
+        # ActionChains(self.driver).move_to_element(self.main.fam_fam).perform()
+        # time.sleep(1)
+        # # 悬浮到服务内容管理
+        # ActionChains(self.driver).move_to_element(self.main.fam_pacman).perform()
+        # time.sleep(1)
+        # # 悬浮到服务包并点击服务包
+        # ActionChains(self.driver).move_to_element(self.main.fam_pac_click).click().perform()
+        # time.sleep(1)
         # 点击新建服务包
         self.creat.fam_crenewpac_click.click()
         time.sleep(1)
@@ -59,4 +62,3 @@ class BaseHandle():
         # self.creat.quyu.click()
         # 输入服务费
         self.creat.fam_serfee = BaseData.fam_serfee
-

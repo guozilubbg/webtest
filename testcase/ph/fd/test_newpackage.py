@@ -1,31 +1,31 @@
 '''
 功能：新建一个正确的服务包
 '''
-from selenium import webdriver
 import unittest
 from page.ph.login_page import *
-from data.ph.BaseData import *
 from page.ph.main_page import *
 from page.ph.package_page import *
 from handle.ph.BaseHandle import *
 
+
 class TestCreateNewPackage(unittest.TestCase):
     def setUp(self):
         self.driver = webdriver.Chrome()
-        # self.url = Login.url
-        # self.driver.maximize_window()
-        # self.page = Login(self.driver)
-        # self.page.get(self.url)
-        # self.main = main(self.driver)
-        # self.creat = Package(self.driver)
-
+        self.url = Login.url
+        self.driver.maximize_window()
+        self.page = Login(self.driver)
+        self.page.get(self.url)
+        self.main = Main_Page(self.driver)
+        self.creat = Package_Page(self.driver)
 
     def tearDown(self):
         self.driver.close()
 
     def test_creatnewpackage(self):
-        BaseHandle.login()
-        BaseHandle.creat_new_package()
+        Log().info("==================测试：新建一个正确的服务包==================================")
+        BaseHandle.login(page=self.page)
+        BaseHandle.click_fam(main=self.main, driver=self.driver)
+        BaseHandle.creat_new_package(creat=self.creat, driver=self.driver)
         # 使用pageObject模式时的web页面自动化测试代码
         # 元素:内容
         # 输入账号
@@ -59,12 +59,8 @@ class TestCreateNewPackage(unittest.TestCase):
         # # self.creat.quyu.click()
         # #输入服务费
         # self.creat.fam_serfee = BaseData.fam_serfee
-
-
-
-
-        time.sleep(100)
-
-
-
-
+        #
+        #
+        #
+        #
+        time.sleep(1)

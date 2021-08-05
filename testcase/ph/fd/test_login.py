@@ -1,5 +1,4 @@
 from selenium import webdriver
-import time
 import unittest
 from page.ph.login_page import *
 from data.ph.BaseData import *
@@ -8,9 +7,9 @@ from data.ph.BaseData import *
 class TestLogIn(unittest.TestCase):
     def setUp(self):
         self.driver = webdriver.Chrome()
-        self.url = login.url
+        self.url = Login.url
         self.driver.maximize_window()
-        self.page = login(self.driver)
+        self.page = Login(self.driver)
         self.page.get(self.url)
 
 
@@ -24,6 +23,9 @@ class TestLogIn(unittest.TestCase):
         self.page.login_password = BaseData.login_password
         self.page.login_click.click()
         time.sleep(8)
+
+        #断言
+
 
 
 
