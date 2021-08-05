@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="019c6a89-79a9-4183-9a12-598de539ab68" name="Default Changelist" comment="commit handle">
+      <change afterPath="$PROJECT_DIR$/his/HTMLTestRunner.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/his/READ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/his/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/his/common/Base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/his/common/GenerateTestReport.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/his/common/Log.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/his/common/PageObject.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/his/common/SendEmail.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/his/common/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/his/data/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/his/data/email.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/his/file/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/his/file/test01.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/his/handle/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/his/logs/2021_08_05 16_20_15.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/his/logs/2021_08_05 16_24_09.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/his/logs/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/his/mysql/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/his/mysql/demo_sql.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/his/mysql/mysqldb.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/his/page/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/his/report/2021-07-30 17_52_42report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/his/report/2021-08-04 17_45_15report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/his/report/2021-08-05 16_24_09report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/his/run.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/his/testcase/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/his/testcase/login/tset_login_his.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/his/util/decorator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/his/util/logger.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/his/util/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/his/util/web_tool.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ph/HTMLTestRunner.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ph/READ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ph/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ph/common/Base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ph/common/GenerateTestReport.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ph/common/Log.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ph/common/PageObject.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ph/common/SendEmail.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ph/common/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ph/data/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ph/data/email.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ph/file/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ph/file/test01.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ph/handle/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ph/logs/2021_08_05 16_20_15.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ph/logs/2021_08_05 16_24_09.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ph/logs/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ph/mysql/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ph/mysql/demo_sql.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ph/mysql/mysqldb.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ph/page/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ph/report/2021-07-30 17_52_42report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ph/report/2021-08-04 17_45_15report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ph/report/2021-08-05 16_24_09report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ph/run.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ph/testcase/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ph/util/decorator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ph/util/logger.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ph/util/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ph/util/web_tool.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTMLTestRunner.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/Base.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/GenerateTestReport.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/Log.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/PageObject.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/SendEmail.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/ph/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/email.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ph/BaseData.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ph/BaseErrorData.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ph/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/url.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/file/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/file/test01.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/handle/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/handle/ph/BaseHandle.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/handle/ph/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/ph/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/ph/login_page.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/ph/main_page.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/ph/package_page.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/his/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/ph/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/ph/fd/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/ph/fd/test_login.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/ph/fd/test_newpackage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/ph/login/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/ph/login/test_login.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1vkvLeRn8T6wRW2PD1SZTIJMsTB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="ToolWindowFind.ShowToolbar" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/sql" />
+      <recent name="$PROJECT_DIR$/common" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ph/mysql" />
+      <recent name="$PROJECT_DIR$/his/testcase/login" />
+      <recent name="$PROJECT_DIR$/his/testcase" />
+      <recent name="$PROJECT_DIR$/his/mysql" />
+      <recent name="$PROJECT_DIR$/mysql/ph" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.demo_sql">
+    <configuration name="Log" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="webTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/common" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/Log.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="demo_sql" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="webTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/common/ph" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mysql/ph/demo_sql.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="web_test" type="PythonConfigurationType" factoryName="Python">
+      <module name="webTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/opt/homebrew/opt/python@3.9/bin/python3.9" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for his.testcase.login.tset_login_his.TestLogin.test_login" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="webTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcase/his" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;his.testcase.login.tset_login_his.TestLogin.test_login&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in /Users/guoxilu/PycharmProjects/webtest/testcase/his/tset_login_his.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="webTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcase/his" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/testcase/his/tset_login_his.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in /Users/guoxilu/PycharmProjects/webtest/testcase/ph/fd/test_newpackage.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="webTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcase/ph/fd" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/testcase/ph/fd/test_newpackage.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.web_test" />
+      <item itemvalue="Python.Log" />
+      <item itemvalue="Python.demo_sql" />
+      <item itemvalue="Python tests.Unittests in /Users/guoxilu/PycharmProjects/webtest/testcase/ph/fd/test_newpackage.py" />
+      <item itemvalue="Python tests.Unittests in /Users/guoxilu/PycharmProjects/webtest/testcase/his/tset_login_his.py" />
+      <item itemvalue="Python tests.Unittests for his.testcase.login.tset_login_his.TestLogin.test_login" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.demo_sql" />
+        <item itemvalue="Python tests.Unittests in /Users/guoxilu/PycharmProjects/webtest/testcase/his/tset_login_his.py" />
+        <item itemvalue="Python tests.Unittests for his.testcase.login.tset_login_his.TestLogin.test_login" />
+        <item itemvalue="Python tests.Unittests in /Users/guoxilu/PycharmProjects/webtest/testcase/ph/fd/test_newpackage.py" />
+        <item itemvalue="Python.Log" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="019c6a89-79a9-4183-9a12-598de539ab68" name="Default Changelist" comment="" />
+      <created>1627118850655</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1627118850655</updated>
+    </task>
+    <task id="LOCAL-00001" summary="第一次修改">
+      <created>1627561489752</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1627561489753</updated>
+    </task>
+    <task id="LOCAL-00002" summary="第二次修改">
+      <created>1627566778151</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1627566778152</updated>
+    </task>
+    <task id="LOCAL-00003" summary="第二次修改">
+      <created>1627567118263</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1627567118263</updated>
+    </task>
+    <task id="LOCAL-00004" summary="第三次修改">
+      <created>1627567479925</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1627567479925</updated>
+    </task>
+    <task id="LOCAL-00005" summary="第三次修改">
+      <created>1627567953303</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1627567953303</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add public_health">
+      <created>1627643275190</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1627643275190</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add handles">
+      <created>1628062249631</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1628062249632</updated>
+    </task>
+    <task id="LOCAL-00008" summary="commit handle">
+      <created>1628133944988</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1628133944988</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="第一次修改" />
+    <MESSAGE value="第二次修改" />
+    <MESSAGE value="第三次修改" />
+    <MESSAGE value="add public_health" />
+    <MESSAGE value="add handles" />
+    <MESSAGE value="commit handle" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit handle" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/util/get_by_local.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/testcase/ph/fd/test_login.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/common/PageObject.py</url>
+          <line>67</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

@@ -1,0 +1,45 @@
+common公用方法
+    GenerateTestReport 生获取测试用例,生成测试报告，发送邮件
+    SendEmail 自动发送邮件
+    PageObject 定位方法
+    Log 生成操作日志
+
+data存放测试数据
+        BaseData 测试数据
+        BaseErrorData 错误的测试数据
+        config 测试基础数据，如数据库信息等
+    email 自动发送邮件的相关信息
+
+file文件夹存放测试过程中需要使用的文件，如图片，txt，zip文件等
+
+handle  操作层，核心工作流程
+
+logs 操作日志
+
+mysql 获取数据库信息
+
+page文件夹用于存放测试过程中需要使用的页面元素
+
+report文件夹用于存放测试生成的测试报告
+
+testcase文件夹中存放测试用例
+
+HTMLTestRunner.py是将测试结果生成为html版的测试报告的文件
+
+run.py 传入想执行测试的路径便可执行测试用例
+
+util 装饰器，用例失败截图
+
+命名规范：
+class AxxBxx:
+    def axx_bxx:
+
+文件内容_模块
+AxxBxx_handle.py
+
+测试用例
+test_用例标题.py
+    class Test用例标题：
+        def test_用例标题
+
+

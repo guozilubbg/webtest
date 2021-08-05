@@ -1,0 +1,2 @@
+class BaseErrorData:
+    pass
