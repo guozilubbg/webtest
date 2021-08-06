@@ -25,3 +25,4 @@ class AddHospital(PageObject):
     hos_frame = PageElement(xpath='//*[@id="pf-page"]/div[2]/div[2]/div/div/iframe')
     #医院管理-增加按钮
     his_add_hos = PageElement(xpath='/html/body/div[1]/div[1]/div/div/div/div[1]/div[2]/span/a[1]')
+

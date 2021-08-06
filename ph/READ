@@ -35,8 +35,8 @@ util 装饰器，用例失败截图
 class AxxBxx:
     def axx_bxx:
 
-文件内容_模块_项目
-AxxBxx_handle_his.py
+文件内容_模块
+AxxBxx_handle.py
 
 测试用例
 test_用例标题.py

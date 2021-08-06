@@ -19,6 +19,9 @@ class TestCreateNewPackage(unittest.TestCase):
         self.creat = Package_Page(self.driver)
 
     def tearDown(self):
+        time.sleep(2)
+        self.driver.get_screenshot_as_file(
+            '//Users//guoxilu//PycharmProjects//webtest//his//pic//%s.jpg' % time.strftime('%Y_%m_%d %H_%M_%S'))
         self.driver.close()
 
     def test_creatnewpackage(self):

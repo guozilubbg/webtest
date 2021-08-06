@@ -8,7 +8,7 @@ class BaseData:
     login_username = "13908958297"
     login_password = "111111"
     #his登录账号密码
-    his_login_username = "XT001"
+    his_login_username = "001"
     his_login_password = "123"
 
     #获取当前时间戳

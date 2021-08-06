@@ -1,14 +1,15 @@
 '''
 功能：测试his的登录
 '''
-
+import time
 import unittest
 from selenium import webdriver
 from his.data.BaseData import *
 from his.page.system_page_his import *
 from selenium.webdriver.common.action_chains import ActionChains
 from his.common.Log import Log
-from his.util.decorator import screenshot
+from his.common.demo import *
+from PIL import Image
 
 class TestLogin(unittest.TestCase):
     def setUp(self):
@@ -19,11 +20,11 @@ class TestLogin(unittest.TestCase):
         self.page.get(self.url)
 
 
-
     def tearDown(self):
+        time.sleep(2)
+        self.driver.get_screenshot_as_file('//Users//guoxilu//PycharmProjects//webtest//his//pic//%s.jpg'%time.strftime('%Y_%m_%d %H_%M_%S'))
         self.driver.close()
 
-    @screenshot
     def test_login(self):
         # 使用pageObject模式时的web页面自动化测试代码
         # 元素=内容
@@ -35,7 +36,6 @@ class TestLogin(unittest.TestCase):
         time.sleep(1)
         Log().info("点击登录按钮")
         self.page.his_loginbutton.click()
-        # BaseHandleHis().login_his(self.page
         time.sleep(3)
         Log().info("点击导航栏系统管理按钮")
         self.page.his_system.click()
@@ -44,9 +44,10 @@ class TestLogin(unittest.TestCase):
         self.driver.switch_to.frame(self.page.hos_frame)
         time.sleep(1)
         self.page.his_add_hos.click()
-        # Log().info("悬浮到增加按钮")
-        # ActionChains(self.driver).move_to_element(self.page.his_add_hos).click().perform()
-        # time.sleep(1)
+        time.sleep(2)
+
+
+
 
         time.sleep(10)
 
