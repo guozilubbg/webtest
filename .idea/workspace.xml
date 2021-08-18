@@ -246,13 +246,13 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.ph_test" />
+      <item itemvalue="Python.Base" />
       <item itemvalue="Python.his_tesrt" />
       <item itemvalue="Python.jkda_data" />
+      <item itemvalue="Python.ph_test" />
       <item itemvalue="Python tests.Unittests for test_add_jkda.TestAddJkda.test_add_jkda" />
       <item itemvalue="Python tests.Unittests for test_login.TestLogIn.test_login" />
       <item itemvalue="Python tests.Unittests for test_newteam.TestCreateNewTeam.test_creatnewteam" />
-      <item itemvalue="Python.Base" />
     </list>
     <recent_temporary>
       <list>
