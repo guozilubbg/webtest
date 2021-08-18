@@ -1,24 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="019c6a89-79a9-4183-9a12-598de539ab68" name="Default Changelist" comment="修改框架，将框架应用于项目中&#10;优点：每个项目有对应的组件&#10;缺点：公共框架一改则全改">
-      <change afterPath="$PROJECT_DIR$/his/common/demo.py" afterDir="false" />
+    <list default="true" id="019c6a89-79a9-4183-9a12-598de539ab68" name="Default Changelist" comment="增加截图功能">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ph/common/idcard.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ph/common/phonenum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ph/page/fd/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ph/page/fd/addmembers_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ph/page/fd/famsigning_pange.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ph/page/fd/persigning.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ph/page/fd/teamadd_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ph/testcase/fd/test_addmember.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ph/testcase/fd/test_famsigning.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ph/testcase/fd/test_newteam.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ph/testcase/fd/test_persigning.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ph/testcase/jkda/test_add_jkda.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/his/READ" beforeDir="false" afterPath="$PROJECT_DIR$/his/READ" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/his/data/BaseData.py" beforeDir="false" afterPath="$PROJECT_DIR$/his/data/BaseData.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/his/page/system_page_his.py" beforeDir="false" afterPath="$PROJECT_DIR$/his/page/system_page_his.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/his/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/his/run.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/his/testcase/login/tset_login_his.py" beforeDir="false" afterPath="$PROJECT_DIR$/his/testcase/login/tset_login_his.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/his/util/decorator.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/his/util/logger.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/his/util/utils.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/his/util/web_tool.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ph/testcase/login/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/ph/testcase/login/test_login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/his/HTMLTestRunner.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/his/READ" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/his/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/his/common/Base.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/his/common/GenerateTestReport.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/his/common/Log.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/his/common/PageObject.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/his/common/SendEmail.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/his/common/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/his/common/demo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/his/data/BaseData.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/his/data/BaseErrorData.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/his/data/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/his/data/config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/his/data/email.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/his/file/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/his/file/test01.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/his/handle/BaseHandle.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/his/handle/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/his/logs/2021_08_05 16_20_15.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/his/logs/2021_08_05 16_24_09.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/his/logs/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/his/mysql/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/his/mysql/demo_sql.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/his/mysql/mysqldb.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/his/page/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/his/page/login_page.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/his/page/system_page_his.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/his/report/2021-07-30 17_52_42report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/his/report/2021-08-04 17_45_15report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/his/report/2021-08-05 16_24_09report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/his/run.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/his/testcase/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/his/testcase/login/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/his/testcase/login/tset_login_his.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ph/common/Base.py" beforeDir="false" afterPath="$PROJECT_DIR$/ph/common/Base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ph/common/GenerateTestReport.py" beforeDir="false" afterPath="$PROJECT_DIR$/ph/common/GenerateTestReport.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ph/common/PageObject.py" beforeDir="false" afterPath="$PROJECT_DIR$/ph/common/PageObject.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ph/data/BaseData.py" beforeDir="false" afterPath="$PROJECT_DIR$/ph/data/BaseData.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ph/data/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/ph/data/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ph/handle/BaseHandle.py" beforeDir="false" afterPath="$PROJECT_DIR$/ph/handle/BaseHandle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ph/page/main_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/ph/page/main_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ph/page/package_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/ph/page/fd/package_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ph/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/ph/run.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ph/testcase/fd/demo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ph/testcase/fd/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/ph/testcase/fd/test_login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ph/testcase/fd/test_newpackage.py" beforeDir="false" afterPath="$PROJECT_DIR$/ph/testcase/fd/test_newpackage.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EditorConfigPreviewManager">
+    <editorConfig file="/opt/homebrew/.editorconfig" previewFile="/opt/homebrew/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/codecs.py" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -47,9 +99,10 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="ToolWindowFind.ShowToolbar" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -58,15 +111,15 @@
       <recent name="$PROJECT_DIR$/common" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ph/page/fd" />
       <recent name="$PROJECT_DIR$/ph/mysql" />
       <recent name="$PROJECT_DIR$/his/testcase/login" />
       <recent name="$PROJECT_DIR$/his/testcase" />
       <recent name="$PROJECT_DIR$/his/mysql" />
-      <recent name="$PROJECT_DIR$/mysql/ph" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in tset_login_his.py">
-    <configuration name="demo_sql" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Unittests for test_add_jkda.TestAddJkda.test_add_jkda">
+    <configuration name="Base" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="webTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -74,11 +127,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/common/ph" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ph/common" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mysql/ph/demo_sql.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ph/common/Base.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -108,6 +161,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="jkda_data" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="webTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ph/data" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ph/data/jkda_data.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="ph_test" type="PythonConfigurationType" factoryName="Python">
       <module name="webTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -129,78 +203,64 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for his.testcase.login.tset_login_his.TestLogin.test_login" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_add_jkda.TestAddJkda.test_add_jkda" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="webTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcase/his" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ph/testcase/jkda" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;his.testcase.login.tset_login_his.TestLogin.test_login&quot;" />
+      <option name="_new_target" value="&quot;test_add_jkda.TestAddJkda.test_add_jkda&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in /Users/guoxilu/PycharmProjects/webtest/testcase/his/tset_login_his.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_login.TestLogIn.test_login" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="webTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcase/his" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ph/testcase/fd" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/testcase/his/tset_login_his.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;test_login.TestLogIn.test_login&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in /Users/guoxilu/PycharmProjects/webtest/testcase/ph/fd/test_newpackage.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_newteam.TestCreateNewTeam.test_creatnewteam" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="webTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcase/ph/fd" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ph/testcase/fd" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/testcase/ph/fd/test_newpackage.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests in tset_login_his.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="webTest" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/his/testcase/login" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/his/testcase/login/tset_login_his.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;test_newteam.TestCreateNewTeam.test_creatnewteam&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Python.ph_test" />
       <item itemvalue="Python.his_tesrt" />
-      <item itemvalue="Python.demo_sql" />
-      <item itemvalue="Python tests.Unittests in /Users/guoxilu/PycharmProjects/webtest/testcase/ph/fd/test_newpackage.py" />
-      <item itemvalue="Python tests.Unittests in /Users/guoxilu/PycharmProjects/webtest/testcase/his/tset_login_his.py" />
-      <item itemvalue="Python tests.Unittests for his.testcase.login.tset_login_his.TestLogin.test_login" />
-      <item itemvalue="Python tests.Unittests in tset_login_his.py" />
+      <item itemvalue="Python.jkda_data" />
+      <item itemvalue="Python tests.Unittests for test_add_jkda.TestAddJkda.test_add_jkda" />
+      <item itemvalue="Python tests.Unittests for test_login.TestLogIn.test_login" />
+      <item itemvalue="Python tests.Unittests for test_newteam.TestCreateNewTeam.test_creatnewteam" />
+      <item itemvalue="Python.Base" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests in tset_login_his.py" />
-        <item itemvalue="Python.demo_sql" />
-        <item itemvalue="Python tests.Unittests in /Users/guoxilu/PycharmProjects/webtest/testcase/his/tset_login_his.py" />
-        <item itemvalue="Python tests.Unittests for his.testcase.login.tset_login_his.TestLogin.test_login" />
-        <item itemvalue="Python tests.Unittests in /Users/guoxilu/PycharmProjects/webtest/testcase/ph/fd/test_newpackage.py" />
+        <item itemvalue="Python tests.Unittests for test_add_jkda.TestAddJkda.test_add_jkda" />
+        <item itemvalue="Python.Base" />
+        <item itemvalue="Python.jkda_data" />
+        <item itemvalue="Python tests.Unittests for test_login.TestLogIn.test_login" />
+        <item itemvalue="Python tests.Unittests for test_newteam.TestCreateNewTeam.test_creatnewteam" />
       </list>
     </recent_temporary>
   </component>
@@ -276,7 +336,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628168716734</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="增加截图功能">
+      <created>1628235716621</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1628235716621</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -299,7 +366,8 @@
     <MESSAGE value="add handles" />
     <MESSAGE value="commit handle" />
     <MESSAGE value="修改框架，将框架应用于项目中&#10;优点：每个项目有对应的组件&#10;缺点：公共框架一改则全改" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改框架，将框架应用于项目中&#10;优点：每个项目有对应的组件&#10;缺点：公共框架一改则全改" />
+    <MESSAGE value="增加截图功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加截图功能" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -319,6 +387,21 @@
           <line>67</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ph/common/idcard.py</url>
+          <line>169</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ph/handle/BaseHandle.py</url>
+          <line>218</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ph/data/jkda_data.py</url>
+          <line>32</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -328,5 +411,10 @@
         </breakpoint>
       </default-breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <inline-watch fileUrl="file://$PROJECT_DIR$/ph/common/idcard.py" line="89">
+        <watch expression="checkcode" language="Python" />
+      </inline-watch>
+    </watches-manager>
   </component>
 </project>

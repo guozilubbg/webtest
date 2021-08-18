@@ -1,35 +1,43 @@
+# -*- coding: utf-8 -*-
+
 '''
-封装一些基本函数,暂时用不上
+封装一些基本函数
 '''
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-
-_LOCATOR_MAP = {'css': By.CSS_SELECTOR,
-                'id': By.ID,
-                'name': By.NAME,
-                'xpath': By.XPATH,
-                'link_text': By.LINK_TEXT,
-                'partial_link_text': By.PARTIAL_LINK_TEXT,
-                'tag_name': By.TAG_NAME,
-                'class_name': By.CLASS_NAME,
-                }
 
 
-class Base:
+# 写入txt文件
+def write_txt(path, content,type):
+    '''
+    path : '/tmp/test.txt'
+    content: 'hello boy'
+    type : "r" w a r+ a+ w+ b
+    '''
+    fw = open(path, type)
+    fw.write(content)
+    fw.close()
 
-    def __init__(self,driver):
-        self.driver = driver
+#读取txt
+def read_txt(path,type):
+    '''
+        path : '/tmp/test.txt'
+        type : "r" w a r+ a+ w+ b
+        '''
+    fw = open(path, type)
+    list = []
+    for i in fw:
+        list.append(i)
+    a = len(list)
+    print(list[(len(list) - 1)])
+    return list[(len(list) - 1)]
 
-    def visit(self, url):
-        self.driver.get(url)
+#
+if __name__ == '__main__':
+    read_txt("/Users/guoxilu/PycharmProjects/webtest/ph/data/packagename.txt", "r")
 
-    def find(self, loc):
-        # k, v = next(iter(loc.items()))
-        # locator = (_LOCATOR_MAP[k], v)
-        return self.driver.find_element(*loc)
 
-    def input(self, loc, value):
-        self.find(loc).send_keys(value)
-
-    def click(self, loc):
-        self.find(loc).click()
+# list = []
+    # list.append(pacname)
+    # fw = open("/Users/guoxilu/PycharmProjects/webtest/ph/data/packagename.txt", 'w')  # 将要输出保存的文件地址
+    # for line in list:
+    #     fw.write("\"pacName\":\"" + line.rstrip("\n") + "\"")  # 将字符串写入文件中
+    #     fw.write("\n")  # 换行

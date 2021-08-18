@@ -91,7 +91,7 @@ class PageElement(object):#element
         elem = self.__get__(instance, instance.__class__)
         if not elem:
             raise ValueError("Can't set value, element not found")
-        elem.clear()#清除搜索栏
+        # elem.clear()#清除搜索栏
         elem.send_keys(value)#输入值
 
 

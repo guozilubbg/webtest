@@ -16,10 +16,9 @@ class TestLogIn(unittest.TestCase):
     def tearDown(self):
         time.sleep(2)
         self.driver.get_screenshot_as_file(
-            '//Users//guoxilu//PycharmProjects//webtest//his//pic//%s.jpg' % time.strftime('%Y_%m_%d %H_%M_%S'))
+            '//Users//guoxilu//PycharmProjects//webtest//ph//pic//%s.jpg' % time.strftime('%Y_%m_%d %H_%M_%S'))
 
         self.driver.close()
-
     def test_login(self):
         # 使用pageObject模式时的web页面自动化测试代码
         # 元素=内容

@@ -13,7 +13,5 @@ class BaseConf(object):
     # url
     public_health_url = "http://172.16.19.227/dashboard/workplace"#"http://172.16.19.203:9081/login"
 
-    TIMEOUT = 12  # 元素等待超时时间
 
-    exists = 10  # 元素存在等待时间
 
